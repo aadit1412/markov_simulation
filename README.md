@@ -19,7 +19,7 @@ Key aspects of the analysis include:
 - Ranking all 32 teams by **shot absorption probability** — the model's implicit quality metric derived purely from the transition matrices
 - Simulating the full knockout bracket and evaluating predictions against actual results
 
-The model correctly predicted **6 of 8 Round of 16 outcomes** and **1 of 2 evaluable Quarter-Final outcomes** — 7 out of 10 evaluable matches — using only group stage data.
+The model correctly predicted **6 of 8 Round of 16 outcomes** and **2 of 3 evaluable Quarter-Final outcomes** — 8 out of 11 evaluable matches — using only group stage data.
 
 ---
 
