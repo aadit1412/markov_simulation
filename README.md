@@ -56,12 +56,12 @@ The model correctly predicted **6 of 8 Round of 16 outcomes** and **1 of 2 evalu
 
 - The model's internal power ranking (shot absorption) correctly identified France, Brazil, and England as the top three knockout-stage teams
 - **Germany ranked 1st overall** despite group stage elimination — the matrix captures style quality, not results, validating the approach
-- **Japan vs Croatia** was the model's most accurate prediction: modal simulated scoreline was 1-1, the exact actual result
-- **Portugal 6-1 Switzerland** was the biggest outlier — actual result sat at the 99.3th percentile of the simulated distribution
+- **France vs Poland**, **Argentina vs Australia**, and **France vs England (QF)** were the model's most accurate predictions: modal simulated scoreline matched the exact actual result
+- **Portugal 6-1 Switzerland** was the biggest outlier — actual result sat at the 98.9th percentile of the simulated distribution
 - The 50/50 possession split is a known structural limitation — possession asymmetry via retention rates is identified as the primary future extension
-- Apart from the actual scoreline, the predicted shots taken by each team also matched real-world games, Croatia had 8 shots against Brazil (predicted 8.7), Japan had 12 shots against Croatia (predicted 10.5), France had 17 shots against Poland (17.6 predicted), etc.
+- Apart from the actual scoreline, the predicted shots taken by each team also matched real-world games: Brazil had 17 shots against Korea (17.6 predicted), Spain has 13 shots against Morocco (11.6 predicted), Switzerland had 10 shots against Portugal (11.2 predicted), Argentina had 14 shots against Netherlands (13 predicted), England had 13 shots against France (13.4 predicted), etc.
 - The model was able to differentiate between team performance and successfuly predict viable win percentages based on event data from just 3 group stage games
-- It's important to note that the matchups given to the model were never used as training data since each team had different opponents in the group stage, and all predictions were based only on the interaction of independent Markov chains 
+- It's important to note that the matchups given to the model were never used as 'training data' to create the transition matrices since each team had different opponents in the group stage, and all predictions were based only on the interaction of independent Markov chains 
 ---
 
 ## Limitations & Future Work
