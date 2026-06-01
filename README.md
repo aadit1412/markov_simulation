@@ -46,7 +46,7 @@ The model correctly predicted **6 of 8 Round of 16 outcomes** and **2 of 3 evalu
 ## Tools Used
 
 - **Python** (NumPy, Pandas, SciPy)
-- **StatsBomb open data** via `mplsoccer` — event-level match data (passes, carries, shots, dribbles)
+- **StatsBomb open data** — event-level match data (passes, carries, shots, dribbles)
 - **Plotly** — interactive visualisations
 - **Matplotlib + mplsoccer** — pitch-based transition flow diagrams
 
